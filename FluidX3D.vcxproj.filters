@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\graphics.cpp" />
+    <ClCompile Include="src\info.cpp" />
+    <ClCompile Include="src\kernel.cpp" />
+    <ClCompile Include="src\lbm.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\setup.cpp" />
+    <ClCompile Include="src\shapes.cpp" />
+    <ClCompile Include="src\stat_funcs.cpp" />
+    <ClCompile Include="src\setups\mercedes.cpp">
+      <Filter>setups</Filter>
+    </ClCompile>
+    <ClCompile Include="src\setups\NN_MPI.cpp">
+      <Filter>setups</Filter>
+    </ClCompile>
+    <ClCompile Include="src\setups\TVS_PZ.cpp">
+      <Filter>setups</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FX3D_MPI\src\lodepng.cpp" />
+    <ClCompile Include="src\kernels\kernel_utils.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernels\kernel_colors_ulits.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernels\kernel_graphics_utils.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernels\kernel_graphics.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernels\kernel_transfer.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kernels\kernel_mesh.cpp">
+      <Filter>kernels</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Template_Classes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\defines.hpp" />
+    <ClInclude Include="src\graphics.hpp" />
+    <ClInclude Include="src\info.hpp" />
+    <ClInclude Include="src\kernel.hpp" />
+    <ClInclude Include="src\lbm.hpp" />
+    <ClInclude Include="src\opencl.hpp" />
+    <ClInclude Include="src\setup.hpp" />
+    <ClInclude Include="src\shapes.hpp" />
+    <ClInclude Include="src\stat_funcs.hpp" />
+    <ClInclude Include="src\units.hpp" />
+    <ClInclude Include="src\utilities.hpp" />
+    <ClInclude Include="src\setups\mercedes.hpp">
+      <Filter>setups</Filter>
+    </ClInclude>
+    <ClInclude Include="src\setups\NN_MPI.hpp">
+      <Filter>setups</Filter>
+    </ClInclude>
+    <ClInclude Include="src\setups\TVS_PZ.hpp">
+      <Filter>setups</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FX3D_MPI\src\lodepng.hpp" />
+    <ClInclude Include="src\Template_Classes.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="setups">
+      <UniqueIdentifier>{12362d83-9a46-4b9e-bafd-9664eb0fda60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernels">
+      <UniqueIdentifier>{ac830395-6249-4375-b41c-25b94d95a150}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

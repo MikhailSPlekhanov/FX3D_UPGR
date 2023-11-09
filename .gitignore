@@ -1,0 +1,5 @@
+bin/
+src/OpenCL/
+src/X11/
+temp/
+.vs/
