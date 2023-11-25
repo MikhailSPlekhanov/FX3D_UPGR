@@ -1,8 +1,12 @@
 #pragma once
 
 #include "defines.hpp"
+#include "opencl.hpp"
+#include "info.hpp"
+#include "units.hpp"
+#include "graphics.hpp"
 
-#include "Template_Classes.hpp"
+//#include "Template_Classes.hpp"
 
 string default_filename(const string& path, const string& name, const string& extension, const ulong t); // generate a default filename with timestamp
 string default_filename(const string& name, const string& extension, const ulong t); // generate a default filename with timestamp at exe_path/export/

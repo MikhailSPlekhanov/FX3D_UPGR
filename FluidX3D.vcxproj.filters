@@ -37,7 +37,6 @@
     <ClCompile Include="src\kernels\kernel_mesh.cpp">
       <Filter>kernels</Filter>
     </ClCompile>
-    <ClCompile Include="src\Template_Classes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\defines.hpp" />
@@ -61,7 +60,7 @@
       <Filter>setups</Filter>
     </ClInclude>
     <ClInclude Include="..\FX3D_MPI\src\lodepng.hpp" />
-    <ClInclude Include="src\Template_Classes.hpp" />
+    <ClInclude Include="src\types_magic.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="src\resource.rc" />

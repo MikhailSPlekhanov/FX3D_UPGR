@@ -177,7 +177,6 @@
     <ClCompile Include="src\setups\TVS_PZ.cpp" />
     <ClCompile Include="src\shapes.cpp" />
     <ClCompile Include="src\stat_funcs.cpp" />
-    <ClCompile Include="src\Template_Classes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\FX3D_MPI\src\lodepng.hpp" />
@@ -193,7 +192,7 @@
     <ClInclude Include="src\setups\TVS_PZ.hpp" />
     <ClInclude Include="src\shapes.hpp" />
     <ClInclude Include="src\stat_funcs.hpp" />
-    <ClInclude Include="src\Template_Classes.hpp" />
+    <ClInclude Include="src\types_magic.hpp" />
     <ClInclude Include="src\units.hpp" />
     <ClInclude Include="src\utilities.hpp" />
   </ItemGroup>
